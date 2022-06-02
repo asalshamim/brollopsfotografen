@@ -72,7 +72,7 @@ function Camera(){
   useEffect(() => {
     startCamera();
     requestNotificationPermission();
-  }, []);
+  }, );
 
   return (
     <section className="cameraComponent">
