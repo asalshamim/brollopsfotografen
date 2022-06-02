@@ -15,7 +15,7 @@ function toCamera(){
     <section>
       <h1>Landing</h1>
       <button onClick={toCamera}>Ta en bild</button>
-      <button onClick={toGallery}>Kolla in gellerian</button>
+      <button onClick={toGallery}>Se galleriet</button>
     </section>
   )
 }

@@ -9,7 +9,7 @@ function Camera(){
   const navigate = useNavigate();
   const getLocalStorage = localStorage.getItem('camera');
   const [ localImages, setLocalImages ] = useState(JSON.parse(getLocalStorage) || []);
-  const [isActive, setIsActive] = useState(false);
+  //const [isActive, setIsActive] = useState(false);
   let stream;
   let notificationPermission = '';
 
