@@ -6,6 +6,7 @@ import Poster from './views/Poster';
 import Landing from './views/Landing';
 import Camera from './views/Camera';
 import Gallery from './views/Gallery';
+navigator.serviceWorker.register('/index.js');
 
 function App() {
   return (
