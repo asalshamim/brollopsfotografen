@@ -19,7 +19,7 @@ async function registerServiceWorker() {
     try {
       await navigator.serviceWorker.register('./service-worker.js');
     } catch (error) {
-      console.log('Detta blev fel!', error);
+
     }
   }
 }
