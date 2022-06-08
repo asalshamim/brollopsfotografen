@@ -1,0 +1,20 @@
+{
+    "name": "wedding App",
+    "short_name": "photographer",
+    "display": "standalone",
+    "theme_color": "#000000",
+    "start_url": "/",
+    "icons": [
+        {
+            "src": "icons/gallery-icon.png",
+            "type": "image/png",
+            "sizes": "192x192"
+        },
+        {
+            "src": "icons/brollop-foto-logo.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ]
+    
+}
